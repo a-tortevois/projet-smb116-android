@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">SMB116 Project</string>
+
+    <!-- Firebase Messaging Service -->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="FIREBASE_MESSAGING_EVENT">tortevois.projet.FIREBASE_MESSAGING_EVENT</string>
+
+    <!-- Bottom Navigation Menu -->
+    <string name="nav_title1">My Account</string>
+    <string name="nav_title2">My Equipments</string>
+    <string name="nav_title3">My Tickets</string>
+
+    <!-- Common -->
+    <string name="lbl_btn_update">Update</string>
+    <string name="lbl_btn_add">Add</string>
+
+    <!-- Toast -->
+    <string name="login_success">Login successful</string>
+    <string name="login_fail">Login failed</string>
+    <string name="logout_success">Logout successful</string>
+    <string name="update_success">Update successful</string>
+    <string name="update_fail">Update failed</string>
+    <string name="equipment_delete_fail">Failed to remove equipment</string>
+    <string name="equipment_delete_success">Equipment successfully removed</string>
+    <string name="ticket_post_fail">Ticket create failed</string>
+    <string name="ticket_post_success">Ticket successfully created</string>
+    <string name="ticket_put_fail">Ticket update failed</string>
+    <string name="ticket_put_succes">Ticket successfully updated</string>
+    <string name="ticket_delete_fail">Fail to delete ticket</string>
+    <string name="ticket_delete_succes">Ticket successfully deleted</string>
+    <string name="message_fail">Fail to send message</string>
+    <string name="message_success">Message successfully sended</string>
+
+    <!-- Login/Account -->
+    <string name="lbl_login">For use this application, please login.</string>
+    <string name="lbl_logout">You are welcome,</string>
+    <string name="lbl_contract_id">Contract ID :</string>
+    <string name="lbl_contract_key">Contract Key :</string>
+    <string name="lbl_lastname">Lastname :</string>
+    <string name="lbl_name">Name :</string>
+    <string name="hint_contract_id">Contract ID</string>
+    <string name="hint_contract_key">Contract Key</string>
+    <string name="hint_lastname">Lastname</string>
+    <string name="hint_name">Name</string>
+    <string name="lbl_btn_login">Login</string>
+    <string name="lbl_btn_logout">Logout</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="lbl_notifications">Enable Notifications : </string>
+
+    <!-- Equipment -->
+    <string name="lbl_customer">Customer : </string>
+    <string name="lbl_equipment">My Equipments</string>
+    <string name="lbl_serial_number">Serial Number :</string>
+    <string name="lbl_comment">Comment :</string>
+    <string name="lbl_lat">Latitude :</string>
+    <string name="lbl_lng">Longitude :</string>
+    <string name="hint_serial_number">Serial Number</string>
+    <string name="hint_comment">Comment</string>
+    <string name="hint_lat">Latitude</string>
+    <string name="hint_lng">Longitude</string>
+    <string name="lbl_btn_setpos">Set Position as Actual</string>
+    <string name="lbl_btn_map">View on Map</string>
+
+    <!-- Ticket -->
+    <string name="lbl_ticket">My Tickets</string>
+    <string name="lbl_select_equipment">Select an Equipment</string>
+    <string name="lbl_select">Select …</string>
+    <string name="lbl_subject">Subject :</string>
+    <string name="hint_subject">Subject</string>
+    <string name="lbl_message">Message :</string>
+
+    <!-- Message -->
+    <string name="hint_input_msg">Enter message</string>
+    <string name="lbl_btn_send">Send</string>
+    <string name="lbl_btn_open">Open</string>
+    <string name="lbl_btn_close">Close</string>
+
+    <!-- Error -->
+    <string name="err_contract_id">Contract ID not match</string>
+    <string name="err_contract_key">Contract Key not match</string>
+    <string name="err_lastname">Lastname not match</string>
+    <string name="err_name">Name not match</string>
+    <string name="err_comment">Comment not match</string>
+    <string name="err_lat">Latitude not match</string>
+    <string name="err_lng">Longitude not match</string>
+    <string name="err_nopos">Error: Position not found</string>
+    <string name="err_id_customer">Error: Please select a Customer</string>
+</resources>

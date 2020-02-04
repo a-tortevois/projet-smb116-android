@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:left="10dp"
+        android:right="10dp"
+        tools:height="30dp"
+        tools:width="50dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorSecondaryLight" />
+        </shape>
+    </item>
+
+    <item
+        android:width="10dp"
+        android:bottom="10dp"
+        android:gravity="left"
+        android:top="10dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorSecondaryLight" />
+        </shape>
+    </item>
+
+    <item
+        android:width="10dp"
+        android:bottom="10dp"
+        android:gravity="right"
+        android:top="10dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorSecondaryLight" />
+        </shape>
+    </item>
+
+    <item
+        android:width="10dp"
+        android:height="10dp"
+        android:gravity="left|top">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="10dp"
+            android:height="10dp"
+            android:viewportWidth="10.0"
+            android:viewportHeight="10.0">
+            <path
+                android:fillColor="@color/colorSecondaryLight"
+                android:pathData="M10,0 A10,10 0 0,0 0,10 L10,10 Z" />
+        </vector>
+    </item>
+
+    <item
+        android:width="10dp"
+        android:height="10dp"
+        android:gravity="right|top">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="10dp"
+            android:height="10dp"
+            android:viewportWidth="10.0"
+            android:viewportHeight="10.0">
+            <path
+                android:fillColor="@color/colorSecondaryLight"
+                android:pathData="M10,10 A10,10 0 0,0 0,0 L0,10 Z" />
+        </vector>
+    </item>
+
+    <item
+        android:width="10dp"
+        android:height="10dp"
+        android:gravity="left|bottom">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="10dp"
+            android:height="10dp"
+            android:viewportWidth="10.0"
+            android:viewportHeight="10.0">
+            <path
+                android:fillColor="@color/colorSecondaryLight"
+                android:pathData="M0,0 A10,10 0 0,0 10,10 L10,0 Z" />
+        </vector>
+    </item>
+
+    <item
+        android:width="10dp"
+        android:height="10dp"
+        android:gravity="right|bottom">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="10dp"
+            android:height="10dp"
+            android:viewportWidth="10.0"
+            android:viewportHeight="10.0">
+            <path
+                android:fillColor="@color/colorSecondaryLight"
+                android:pathData="M0,10 A10,10 0 0,0 10,0 L0,0 Z" />
+        </vector>
+    </item>
+
+    <item
+        tools:height="30dp"
+        tools:width="70dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp" />
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/colorSecondaryDark" />
+        </shape>
+    </item>
+</layer-list>

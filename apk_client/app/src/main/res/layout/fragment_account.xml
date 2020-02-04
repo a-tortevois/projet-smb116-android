@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title">
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:text="@string/lbl_contract_id"
+                android:textSize="@dimen/label" />
+
+            <EditText
+                android:id="@+id/contract_id"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/hint_contract_id"
+                android:inputType="text"
+                android:textAllCaps="false"
+                android:textSize="@dimen/field" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_column="0"
+                android:text="@string/lbl_contract_key"
+                android:textSize="@dimen/label" />
+
+            <EditText
+                android:id="@+id/contract_key"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/hint_contract_key"
+                android:inputType="text"
+                android:textAllCaps="false"
+                android:textSize="@dimen/field" />
+        </TableRow>
+
+        <TableRow android:id="@+id/row_lastname">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:text="@string/lbl_lastname"
+                android:textSize="@dimen/label" />
+
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/hint_lastname"
+                android:inputType="text"
+                android:textAllCaps="false"
+                android:textSize="@dimen/field" />
+        </TableRow>
+
+        <TableRow android:id="@+id/row_name">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:text="@string/lbl_name"
+                android:textSize="@dimen/label" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/hint_name"
+                android:inputType="text"
+                android:textAllCaps="false"
+                android:textSize="@dimen/field" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp" />
+
+        <TableRow android:id="@+id/row_btn_login">
+
+            <Button
+                android:id="@+id/btn_login"
+                style="@style/button"
+                android:layout_gravity="center"
+                android:layout_span="2"
+                android:drawableStart="@drawable/ic_login"
+                android:text="@string/lbl_btn_login" />
+        </TableRow>
+
+        <TableRow android:id="@+id/row_btn_update">
+
+            <Button
+                android:id="@+id/btn_update"
+                style="@style/button"
+                android:layout_gravity="center"
+                android:layout_span="2"
+                android:drawableStart="@drawable/ic_update"
+                android:text="@string/lbl_btn_update" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Switch
+        android:id="@+id/switch_notifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="32dp"
+        android:text="@string/lbl_notifications"
+        android:textSize="@dimen/label"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/table" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="@dimen/btn"
+        android:layout_height="@dimen/btn"
+        android:layout_marginEnd="@dimen/btn_margin"
+        android:layout_marginBottom="@dimen/btn_margin"
+        android:background="@drawable/btn_logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>

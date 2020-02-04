@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#42a5f5</color>
+    <color name="colorPrimaryLight">#80d6ff</color>
+    <color name="colorPrimaryDark">#0077c2</color>
+    <color name="colorPrimaryBackground">@android:color/white</color>
+    <color name="colorPrimaryText">@android:color/black</color>
+
+    <color name="colorSecondary">#ffb74d</color>
+    <color name="colorSecondaryLight">#ffecb3</color> <!-- ffdd71 -->
+    <color name="colorSecondaryDark">#c77c02</color>
+    <color name="colorSecondaryBackground">@android:color/white</color>
+    <color name="colorSecondaryText">@android:color/black</color>
+
+    <color name="colorItemDisable">#bdbdbd</color>
+    <color name="colorItemChecked">#ffdd4b</color>
+    <color name="colorLine">#dfdfdf</color>
+
+    <color name="colorAccent">#ffb74d</color>
+
+
+    <color name="msg_bg_right">#e6e5eb</color>
+    <color name="msg_bg_left">#48b5fa</color>
+    <color name="msg_txt_right">@android:color/black</color>
+    <color name="msg_txt_left">@android:color/white</color>
+
+</resources>

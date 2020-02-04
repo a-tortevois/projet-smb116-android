@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="title">18sp</dimen>
+    <dimen name="subject">16sp</dimen>
+    <dimen name="label">16sp</dimen>
+    <dimen name="field">16sp</dimen>
+    <dimen name="button">16sp</dimen>
+
+    <dimen name="btn">72dp</dimen>
+    <dimen name="btn_margin">10dp</dimen>
+    <dimen name="btn_margin2">92dp</dimen> <!-- margin for 2nd button -->
+
+    <dimen name="msg_corners">10dp</dimen>
+    <dimen name="msg_corners_plus_tail">15dp</dimen>
+    <dimen name="msg_spacing">5dp</dimen>
+    <dimen name="msg_tail">25dp</dimen>
+    <dimen name="msg_date">12sp</dimen>
+    <dimen name="msg_comment">15sp</dimen>
+
+</resources>

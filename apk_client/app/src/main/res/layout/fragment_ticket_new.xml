@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/title"
+        android:text="@string/lbl_equipment"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_select_equipment"
+        android:textSize="@dimen/label"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <Spinner
+        android:id="@+id/spinner_equipment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_span="2"
+        android:textAllCaps="false"
+        android:textSize="@dimen/field"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_select" />
+
+    <TableLayout
+        android:id="@+id/layout_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinner_equipment">
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:text="@string/lbl_subject"
+                android:textSize="@dimen/label" />
+
+            <EditText
+                android:id="@+id/ticket_subject"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/hint_subject"
+                android:inputType="text"
+                android:textAllCaps="false"
+                android:textSize="@dimen/field" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_marginBottom="10dp"
+                android:text="@string/lbl_message"
+                android:textSize="@dimen/label" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/message_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_span="2"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:textSize="@dimen/field" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn_send"
+                style="@style/button"
+                android:layout_gravity="center"
+                android:layout_span="2"
+                android:drawableStart="@drawable/ic_sendmsg"
+                android:text="@string/lbl_btn_send" />
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
